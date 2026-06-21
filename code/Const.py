@@ -1,0 +1,9 @@
+COLOR_WHITE = (255, 255, 255)
+COLOR_ORANGE = (250, 200, 0)
+
+WIN_WIDTH = 576
+WIN_HEIGHT = 324
+
+MENU_OPTION = ('NEW GAME P1',
+               'SCORE',
+               'EXIT',)
