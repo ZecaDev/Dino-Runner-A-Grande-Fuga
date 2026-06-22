@@ -7,6 +7,6 @@ class Background(Entity):
         super().__init__(name, position)
 
     def move(self):
-        self.rect.centerx -= 1
+        self.rect.centerx -= 2
         if self.rect.right <= 0:
             self.rect.left = WIN_WIDTH
