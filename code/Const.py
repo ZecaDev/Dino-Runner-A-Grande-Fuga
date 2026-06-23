@@ -1,3 +1,5 @@
+import pygame
+
 COLOR_WHITE = (255, 255, 255)
 COLOR_ORANGE = (230, 180, 0)
 COLOR_YELLOW = (255, 255, 0)
@@ -5,6 +7,9 @@ COLOR_YELLOW = (255, 255, 0)
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
 
+EVENT_TIMEOUT = pygame.USEREVENT +1
+
+TIMEOUT_STEP = 100
+
 MENU_OPTION = ('NEW GAME P1',
-               'SCORE',
                'EXIT',)

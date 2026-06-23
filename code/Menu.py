@@ -25,6 +25,12 @@ class Menu:
                 else:
                     self.menu_text(MENU_OPTION[i], 15, COLOR_ORANGE, ((WIN_WIDTH / 2), 200 + 30 * i))
 
+            base_y = 230
+
+            self.menu_text("CONTROLS:", 14, COLOR_WHITE, (WIN_WIDTH - 120, base_y))
+            self.menu_text("SPACE / W / ↑ = PULAR", 12, COLOR_WHITE, (WIN_WIDTH - 120, base_y + 35))
+            self.menu_text("ENTER = SELECIONAR", 12, COLOR_WHITE, (WIN_WIDTH - 120, base_y + 60))
+
             pygame.display.flip()
 
             for event in pygame.event.get():
